@@ -381,7 +381,7 @@ void Set_solenoid(int solenoid, char flow){
 
 //This is the callback function called when Tim3 counter reaches ARR(Period)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_15);
+	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
 }
 /* USER CODE END 4 */
 
